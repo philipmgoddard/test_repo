@@ -7,8 +7,7 @@ class Dexter():
     def __call__(self):
         print([x for x in range(10) if x != 1])
 
-class Phil(Dexter):
+class Phil(Flexter):
     def __init__(self):
-	super().__init__(self)
 
-print("frogs")
+print("frogs and dogs")
