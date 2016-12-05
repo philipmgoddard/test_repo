@@ -5,12 +5,10 @@ class Dexter():
         self.rats = hats * 3
 
     def __call__(self):
-        print([x for x in range(4) if x != 2])
+        print([x for x in range(10) if x != 1])
 
-class Phil(Exception):
+class Phil(Dexter):
     def __init__(self):
-        self.frogs = 10
-
-print("SOME ANNOYING INSERTIONS)
+	super().__init__(self)
 
 print("frogs")
