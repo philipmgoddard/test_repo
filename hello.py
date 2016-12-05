@@ -5,11 +5,11 @@ class Dexter():
         self.rats = hats * 3
 
     def __call__(self):
-        print([x for x in range(3) if x != 1])
+        print([y for x in range(10) if x != 1])
 
-class Phil(Dexter):
+class Phil():
     def __init__(self):
-        super().__init__()
 
+print("SOME ANNOYING INSERTIONS)
 
 print("frogs")
