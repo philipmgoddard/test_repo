@@ -5,9 +5,9 @@ class Dexter():
         self.rats = hats * 3
 
     def __call__(self):
-        print([x for x in range(10) if x != 1])
+        print([x for x in range(2) if x != 2])
 
 class Phil(Flexter):
     def __init__(self):
 
-print("frogs and dogs")
+print("frogs and snoodles")
